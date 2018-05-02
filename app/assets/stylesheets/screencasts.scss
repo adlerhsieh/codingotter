@@ -133,6 +133,7 @@ blockquote {
   position: relative;
   padding-bottom: 25px;
   padding-top: 25px;
+  height: 505px;
   iframe {
     width: 100%;
     height: 100%;
@@ -195,5 +196,11 @@ a i.widget-icon {
     margin-right: 15px;
     margin-left: 5px;
     padding-top: 2px;
+  }
+}
+
+@media all and (max-width: 992px) {
+  .screencast {
+    height: 381px;
   }
 }
