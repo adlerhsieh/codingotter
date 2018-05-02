@@ -1,0 +1,199 @@
+.posts {
+  h4 {
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: -15px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+  }
+}
+
+.blog-title {
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.column {
+  background-color: white;
+  border: 1px solid #D8D8D8;
+  padding: 20px;
+  margin: 20px 0 20px 0;
+}
+
+.date-display {
+  color: #BABABA;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.widget, .year-column, .single-post {
+}
+
+.year-column {
+    table, tr {
+      width: 100%;
+    }
+  .td-thumbnail {
+    width: 15%;
+    height: 75px;
+  }
+  .td-left {
+    width: 65%;
+  }
+  .td-right {
+    width: 20%;
+    text-align: right;
+  }
+}
+.thumbnail {
+  max-width: 100px;
+  max-height: 75px;
+  background-color: white;
+}
+.line-numbers {
+  opacity: 0.5;
+}
+
+h3.year-title {
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+div.post {
+  img {
+    display: block;
+    margin: 0 auto;
+}
+}
+
+blockquote {
+  font-size: 15px;
+  background-color: #FBFFD6;
+}
+
+#post_abstract {
+  height: 150px;
+}
+
+#editor {
+  height: 350px;
+}
+
+.editor-title {
+  font-size: 28px;
+  height: 50px;
+}
+
+.editor-attr {
+  margin-bottom: 20px;
+}
+
+.message {
+  height: 50px;
+  width: 400px;
+  margin-top: 20px;
+  position: fixed;
+  display: block;
+  opacity: 1;
+  z-index: 20;
+  text-align: center;
+}
+
+.status {
+  font-size: 24px;
+  line-height: 48px;
+  kbd, code {
+    display: none;
+}
+}
+
+.instruction {
+  display: none;
+}
+
+.avatar {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+}
+
+.search-title {
+  text-align: center;
+}
+
+.no-content {
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+#preview-video, .screencast {
+  position: relative;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  iframe {
+    width: 100%;
+    height: 100%;
+    position: abosolute;
+    top: 0;
+    left: 0;
+}
+}
+
+.suffix {
+  padding-left: 10px;
+  vertical-align: top;
+}
+.prefix {
+  padding-right: 10px;
+}
+
+a i.widget-icon {
+  font-size: 45px;
+  width: 50px;
+}
+
+.series-title {
+  font-size: 15px;
+  color: #A1A1A1;
+}
+
+.screencast-title {
+  margin-top: 10px;
+}
+
+.screencast {
+  width: 90%;
+  margin: 0 auto 50px auto;
+  display: block;
+}
+
+.screencast_list {
+  $border: 1px solid #D8D8D8;
+  border-left: $border;
+  border-right: $border;
+  border-bottom: $border;
+  tr:hover {
+    cursor: pointer;
+  }
+  td {
+    vertical-align: inherit;
+    font-size: 20px;
+  }
+  .title {
+    text-align:center;
+    font-size: 14px;
+    color: gray;
+  }
+  .center {
+    text-align: center;
+  }
+  .play-button {
+    font-size: 28px;
+    margin-right: 15px;
+    margin-left: 5px;
+    padding-top: 2px;
+  }
+}
