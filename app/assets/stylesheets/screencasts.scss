@@ -134,9 +134,10 @@ blockquote {
 
 #preview-video, .screencast {
   position: relative;
-  padding-bottom: 25px;
-  padding-top: 25px;
+  // padding-bottom: 25px;
+  // padding-top: 25px;
   height: 600px;
+
   iframe {
     width: 100%;
     height: 100%;
@@ -170,7 +171,7 @@ a i.widget-icon {
 
 .screencast {
   width: 100%;
-  margin: 0 auto 50px auto;
+  // margin: 0 auto 50px auto;
   display: block;
 }
 
