@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
 
-  root to: redirect("/screencasts")
+  root to: "screencasts#index", as: :screencasts
 
-  get '/author', to: "misc#author", as: "author"
+  get "/author", to: "misc#author", as: "author"
 
-  resources :screencasts, only: %i[index show]
+  get "/:id", to: "screencasts#show", as: :screencast
 
 end
