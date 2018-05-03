@@ -114,6 +114,12 @@ hr {
   margin: 0 auto;
 }
 
-.desktop-only {
-  display: none;
+.blog-title {
+  text-align: center;
+}
+
+@media all and (max-width: 768px) {
+  .desktop-only {
+    display: none;
+  }
 }

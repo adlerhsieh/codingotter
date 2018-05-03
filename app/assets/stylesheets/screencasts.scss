@@ -20,9 +20,9 @@
   padding-left: 10px;
 }
 
- table, tr {
-   width: 100%;
- }
+table, tr {
+ width: 100%;
+}
 
 .td-thumbnail {
   width: 15%;
@@ -31,16 +31,22 @@
 
 .td-left {
   padding-left: 20px;
+  padding-right: 20px;
 
   .text-column {
     height: 125px;
+
+    a {
+      color: #292929;
+      text-decoration: none;
+    }
+
+    .abstract {
+      padding-left: 10px;
+      font-size: 16px;
+    }
   }
 
-}
-
-.td-right {
-  width: 20%;
-  text-align: right;
 }
 
 .thumbnail {
@@ -62,7 +68,7 @@ div.post {
   img {
     display: block;
     margin: 0 auto;
-}
+  }
 }
 
 blockquote {
@@ -198,17 +204,29 @@ a i.widget-icon {
 
 @media all and (max-width: 992px) {
 
+  .date-display {
+    display: none;
+  }
+
+  .abstract {
+    display: none;
+  }
+
+}
+
+@media all and (max-width: 768px) {
+
   .screencast {
     height: 381px;
   }
 
   .thumbnail {
-    max-width: 150px;
+    max-width: 120px;
   }
 
   .list {
     h4 {
-      font-size: 18px;
+      font-size: 16px;
     }
   }
 
