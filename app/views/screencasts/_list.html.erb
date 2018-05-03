@@ -1,4 +1,4 @@
-<div class="column year-column">
+<div class="column">
   <table>
     <tbody>
       <% @screencasts.each do |screencast| %>
@@ -7,13 +7,17 @@
             <%= link_to(image_tag(screencast.thumbnail_url, class: "thumbnail"), screencast_path(screencast[:slug])) %>
           </td>
           <td class="td-left">
-            <h4>
-              <% if screencast.video_embed && screencast.video_embed != "" %>
-                <span class="prefix glyphicon glyphicon-film"></span>
-              <% end %>
-              <%= link_to screencast.title, screencast_path(screencast[:slug]) %>
-            </h4>
-            <span class="date-display desktop-only"><%= (screencast[:display_date] || screencast.created_at).strftime("%Y-%m-%d") %></span> 
+            <div class="text-column">
+              <h4>
+                <%= link_to screencast.title, screencast_path(screencast[:slug]) %>
+              </h4>
+              <div class="height-5"></div>
+              <span class="date-display">
+                <%= (screencast[:display_date] || screencast.created_at).strftime("%Y-%m-%d") %>
+              </span> 
+              <div class="height-5"></div>
+              
+            </div>
           </td>
           <td class="td-right desktop-only">
           </td>

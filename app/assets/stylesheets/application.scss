@@ -24,7 +24,7 @@ body {
   font-family: "Helvetica Neue", "Hiragino Sans GB", sans-serif;
   font-size: 16px;
   line-height: 26px;
-  background-color: #EEEEEE;
+  // background-color: #EEEEEE;
   padding-top: 0px;
 }
 
@@ -48,18 +48,6 @@ h1, h2, h3, h4 {
   display: none;
 }
 
-.site-logo {
-  width: 50px;
-  height: 50px;
-  margin-top: -15px;
-  margin-left: 15px;
-}
-
-nav {
-  background-color: #EEEEEE;
-  margin-bottom: 30px;
-}
-
 nav a.site-title {
   margin-left: -20px !important;
   color: black;
@@ -72,43 +60,16 @@ img {
   margin: 0 auto;
 }
 
-.navbar {
-  border: 0px solid transparent;
-}
-.navbar ul li a{
-  font-size: 14px;
-}
-.navbar-default {
-  background: transparent;
-  box-shadow: inset 0 0px 0 rgba(255,255,255,.15),0 0px 0px rgba(0,0,0,.075);
-  -webkit-box-shadow: inset 0 0px 0 rgba(255,255,255,.15),0 0px 0px rgba(0,0,0,.075);
-}
-.nav-pills li a {
-  font-size: 15px;
-}
-
-@media all and (max-width: 768px) {
-  .navbar-nav {
-    background-color: white;
-    border-radius: 10px;
-    text-align: center;
-    border: 1px solid #D8D8D8;
-  }
-  .pull-right {
-    float: none;
-  }
-}
-
-footer {
-    margin: 50px 0;
-}
-
 .align-right {
   text-align: right;
 }
 
 .padding-right-20 {
   padding-right: 20px;
+}
+
+.height-5 {
+  height: 5px;
 }
 
 .height-50 {
@@ -151,4 +112,8 @@ hr {
   width: 80%;
   display: block;
   margin: 0 auto;
+}
+
+.desktop-only {
+  display: none;
 }

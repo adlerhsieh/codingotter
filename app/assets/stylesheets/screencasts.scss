@@ -1,23 +1,15 @@
-.posts {
+.list {
   h4 {
-    font-weight: 400;
+    font-size: 24px;
     line-height: 26px;
     margin-top: -15px;
     margin-bottom: 0px;
     padding-left: 10px;
+    color: black;
   }
 }
 
-.blog-title {
-  font-weight: bold;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  text-align: center;
-}
-
 .column {
-  background-color: white;
-  border: 1px solid #D8D8D8;
   padding: 20px;
   margin: 20px 0 20px 0;
 }
@@ -28,30 +20,35 @@
   padding-left: 10px;
 }
 
-.widget, .year-column, .single-post {
+ table, tr {
+   width: 100%;
+ }
+
+.td-thumbnail {
+  width: 15%;
+  height: 75px;
 }
 
-.year-column {
-    table, tr {
-      width: 100%;
-    }
-  .td-thumbnail {
-    width: 15%;
-    height: 75px;
+.td-left {
+  padding-left: 20px;
+
+  .text-column {
+    height: 125px;
   }
-  .td-left {
-    width: 65%;
-  }
-  .td-right {
-    width: 20%;
-    text-align: right;
-  }
+
 }
+
+.td-right {
+  width: 20%;
+  text-align: right;
+}
+
 .thumbnail {
-  max-width: 100px;
-  max-height: 75px;
+  max-width: 290px;
+  max-height: 150px;
   background-color: white;
 }
+
 .line-numbers {
   opacity: 0.5;
 }
@@ -200,7 +197,25 @@ a i.widget-icon {
 }
 
 @media all and (max-width: 992px) {
+
   .screencast {
     height: 381px;
   }
+
+  .thumbnail {
+    max-width: 150px;
+  }
+
+  .list {
+    h4 {
+      font-size: 18px;
+    }
+  }
+
+  .td-left {
+    .text-column {
+      height: 90px;
+    }
+  }
+
 }
